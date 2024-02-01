@@ -1,0 +1,32 @@
+.navigation {
+    background-color: aqua;
+    padding: 2em 0;
+  }
+  .navigation__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navigation ul {
+    display: flex;
+    gap: 3em;
+  }
+  .navigation ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    
+  }
+  .navigation__icons {
+    display: flex;
+    gap: 2em;
+  }
+  .navigation ul li {
+    padding: 1em 2em;
+  }
+  .navigation ul li:hover {
+    background: #eea539;
+    color: aliceblue;
+  }
+  @media screen and (max-width: 920px) {
+  }
+  

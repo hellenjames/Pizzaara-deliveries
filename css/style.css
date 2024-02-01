@@ -1,7 +1,16 @@
-@import url("sections/header.css");
+@import url("sections/header/nav.css");
+@import url("sections/header/hero.css");
+@import url("sections/menu.css");
+/* :root{
+
+} */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
