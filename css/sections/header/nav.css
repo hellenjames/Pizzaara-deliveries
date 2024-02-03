@@ -1,4 +1,4 @@
-.nav{
+.nav {
   background-color: aliceblue;
   padding: 2em 0;
 }
@@ -7,17 +7,12 @@
   align-items: center;
   justify-content: space-between;
 }
-.nav__menu {
+
+.nav__menu ul {
   display: flex;
-  gap: 3em;
-}
-.nav__menu ul{
-    display:inline-block;
-    display: flex;
-    
 }
 
-.nav__menu  li {
+.nav__menu li {
   list-style-type: none;
   font-size: 1rem;
 }
@@ -35,10 +30,11 @@
 .humberger {
   display: none;
 }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 415px) {
   .nav__menu {
-    display: none; }
+    display: none;
   }
- . nav__container{
-    font-size: 3em;
- }
+}
+.nav__container {
+  font-size: 3em;
+}
