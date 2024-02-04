@@ -17,3 +17,6 @@
 .text__orange{
   color:#eea539;
 }
+.text__bolder{
+  font-weight: bolder;
+}

@@ -26,6 +26,7 @@
 .nav__menu li:hover {
   background: #eea539;
   color: aliceblue;
+  cursor:pointer;
 }
 .humberger {
   display: none;
