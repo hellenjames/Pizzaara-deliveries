@@ -10,6 +10,9 @@
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -20,3 +23,10 @@
 .text__bolder{
   font-weight: bolder;
 }
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+h4{
+
+} 

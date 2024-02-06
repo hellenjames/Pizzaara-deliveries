@@ -1,6 +1,6 @@
 .nav {
-  background-color: aliceblue;
-  padding: 2em 0;
+  background-color: #F4F7FB;
+  padding: 1.5em 0;
 }
 .nav__container {
   display: flex;
@@ -25,17 +25,24 @@
 }
 .nav__menu li:hover {
   background: #eea539;
-  color: aliceblue;
+  color: #F4F7FB;
   cursor:pointer;
 }
 .humberger {
   display: none;
 }
 @media screen and (max-width: 415px) {
+  .nav{
+    background-color: aqua;
+    width: 100%;
+  }
   .nav__menu {
     display: none;
   }
+  .humberger {
+    display: block;
+  }
+ 
+  
 }
-.nav__container {
-  font-size: 3em;
-}
+
