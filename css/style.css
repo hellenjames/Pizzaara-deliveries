@@ -1,6 +1,7 @@
 @import url("sections/header/nav.css");
 @import url("sections/header/hero.css");
 @import url("sections/menu.css");
+@import url("sections/footer.css");
 /* :root{
 
 } */
@@ -28,5 +29,13 @@ h2{
   font-weight: bold;
 }
 h4{
+  font-size:2em;
+  
 
 } 
+.light__text{
+  color:lightgray;
+  font-size: 20px;
+}
+
+

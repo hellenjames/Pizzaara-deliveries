@@ -97,7 +97,6 @@
                     <div class="hero__cards__image">
                       <img src="images/star.png" width="35" />
                     </div>
-
                     <p>(7.8)</p>
                     <p>10K Reviews</p>
                   </div>
@@ -145,7 +144,7 @@
               <div class="menu__images">
                 <img src="images/barbecue-chicken-pizza.png" width="200" />
                 <p>BBQ Chicken Pizza</p>
-                <p>(Cheese with Shrimp)</p>
+                <p class="light__text">(Cheese with Shrimp)</p>
 
                 <p>Ksh. 1500</p>
 
@@ -154,7 +153,7 @@
               <div class="menu__images">
                 <img src="images/tandoori-chicken.png" width="200" />
                 <p>Tandoori Chicken Pizza</p>
-                <p>(Cheese with Shrimp)</p>
+                <p class="light__text">(Cheese with Shrimp)</p>
 
                 <p>Ksh. 1500</p>
                 <button>Add to Cart</button>
@@ -162,7 +161,7 @@
               <div class="menu__images">
                 <img src="images/chicken-kebab.png" width="280" />
                 <p>Chicken Kebab Pizza</p>
-                <p>(Cheese with Shrimp)</p>
+                <p class="light__text">(Cheese with Shrimp)</p>
 
                 <p>Ksh. 1500</p>
                 <button>Add to Cart</button>
@@ -176,43 +175,55 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="why__menu">
+    <section class="why__menu">
+      <div class="why__menu__container">
         <div class="why__menu__left">
           <img src="images/why-us.png" />
         </div>
         <div class="why__menu__right">
           <h4><span class="text__orange">Why Us</span></h4>
           <h2>Why We Are<span class="text__orange">The Best</span></h2>
-          <p>
+          <p class="light__text">
             We always try to maintain our food quality for our customers.Our
             customers’ satisfaction is our top priority.
           </p>
-          <div class="why__menu__icons">
-            <div>
-              <img src="/images/fresh-pizza.png" width="70" />
+          <div>
+            <div class="why__menu__image">
+              <div>
+                <img src="/images/fresh-pizza.png" width="70" />
+              </div>
+              <div>
+                <h3>Fresh Pizza</h3>
+                <p class="light__text">
+                  We make our pizza to suit your needs as we use the best
+                  quality ingredients.
+                </p>
+              </div>
             </div>
-            <h3>Fresh Pizza</h3>
-            <p>
-              We make our pizza to suit your needs as we use the best quality
-              ingredients.
-            </p>
-            <div>
-              <img src="/images/fast-delivery.png" width="70" />
+            <div class="why__menu__image">
+              <div>
+                <img src="/images/fast-delivery.png" width="70" />
+              </div>
+                <div>
+                  <h3>Fast Delivery</h3>
+                  <p class="light__text">
+                    Through rapid delivery, we provide a high level of customer
+                    service
+                  </p>
+              </div>
             </div>
-            <h3>Fast Delivery</h3>
-            <p>
-              Through rapid delivery, we provide a high level of customer
-              service
-            </p>
-            <div>
-              <img src="/images/quality.png" width="70" />
+            <div class="why__menu__image">
+              <div>
+                <img src="/images/quality.png" width="70" />
+              </div>
+              <div>             <h3>Best Quality</h3>
+              <p class="light__text">
+                Our delivery service that is available at any time and usually
+                everyday.
+              </p>
             </div>
-            <h3>Best Quality</h3>
-            <p>
-              Our delivery service that is available at any time and usually
-              everyday.
-            </p>
+ 
+            </div>
           </div>
         </div>
       </div>
@@ -225,12 +236,62 @@
           You
         </h2>
         <div class="menu__contact">
-          <img src="/images/mail.png" width="70" />
-          <img src="/images/live-support.png" width="70" />
-          <img src="/images/phone.png" width="70" />
+          <div class="menu__contact__image">
+            <img src="/images/mail.png" width="70" />
+            <h3>Email Address</h3>
+            <p class="light__text">pizaaradeliveries@info.com</p>
+          </div>
+          <div class="menu__contact__image">
+            <img src="/images/live-support.png" width="70" />
+            <h3>Live Support</h3>
+            <p class="light__text">Get live support now</p>
+          </div>
+          <div class="menu__contact__image">
+            <img src="/images/phone.png" width="70" />
+
+            <h3>Phone Number</h3>
+
+            <p class="light__text">+2547 11 555 888</p>
+          </div>
         </div>
       </div>
     </section>
     <!-- footer-part -->
+    <section>
+      <div class="footer">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <img src="images/logo_light.svg" width="250" />
+          </div>
+          <h4>Stay Connected</h4>
+          <div class="footer__images">
+            <img src="images/facebook.png" width="70" />
+            <img src="/images/instagram.png" width="70" />
+            <img src="/images/twitter.png" width="70" />
+            <img src="images/linkedin.png" width="70" />
+          </div>
+          <h4>Quick Links</h4>
+          <div class="footer__menu">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Shop</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Subscribe To Our Newsletter to stay updated.</h4>
+          </div>
+          <div class="footer__form">
+            <form>
+              <input type="text" placeholder="Email Address" />
+              <div class="footer__subscribe__button">
+                <button>Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
