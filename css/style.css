@@ -2,6 +2,7 @@
 @import url("sections/header/hero.css");
 @import url("sections/menu.css");
 @import url("sections/footer.css");
+
 /* :root{
 
 } */
@@ -30,6 +31,7 @@ h2{
 }
 h4{
   font-size:2em;
+  color: white;
   
 
 } 
@@ -37,5 +39,6 @@ h4{
   color:lightgray;
   font-size: 20px;
 }
+
 
 
