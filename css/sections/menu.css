@@ -106,21 +106,30 @@
   justify-content: space-between;
    padding: 1em 1em;
    align-items: center;
-
-  
 }
 .menu__help {
   margin:0 auto;
   width:80%;
+  margin-top:200px;
  }
+
+.menu__help h4{
+
+  text-align: center;
+}
+.menu__help h2{
+  text-align: center;
+}
 .menu__contact{
   display:flex;
   justify-content:space-between;
   align-items: center;
+  margin-top: 60px;
   }
   .arrow__image{
     display:flex;
     gap:1rem;
+    color:black;
   }
 .menu__contact__image{
   display:flex;
