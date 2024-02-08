@@ -1,26 +1,32 @@
 .footer{
     background-color: black;
-    
-    
+    margin:0 auto;
+    width:99%;
+    margin-top:150px;  
 }
 .footer__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width:90%;
+   
 
 }
-.footer__menu {
-display: block;
+.footer__menu ul li{
+padding: 10px;
+  font-size: 1.2rem;
 }
 .footer__menu ul li:hover {
     background: #eea539;
     /* color: #fff; */
     cursor:pointer;
     font-size: 1rem;
+    
   }
   .footer__menu li {
     color:#fff;
     list-style-type: none;
-  font-size: 1rem;
+
+  
 
     
   }
@@ -28,17 +34,27 @@ display: block;
     justify-content: space-between;
     line-height:3em;
   }
+  .footer__logo __left{
+    padding-right:8rem;
+  }
+  
+  .footer__logo{
+    padding-top: 30px;
+  }
   .footer__right__form{
     display: flex;
-    border: 2px solid black;
+    border: 3px solid black;
+    
     
   }
   .footer input{
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
+      border-radius: 7px 0 0 7px;
     
   }
   .footer button{
     padding:2em 4em;
     background-color: #eea539;
+    border-radius: 0 7px 7px 0;
   }
   
