@@ -1,0 +1,43 @@
+.menu__help {
+    text-align: center;
+  }
+  .menu__help h2{
+    margin: 1em 0;
+  }
+  .menu__contact {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 60px;
+    gap: 2em;
+
+  }
+  .arrow__image {
+    display: flex;
+    gap: 1rem;
+    color: black;
+  }
+  .menu__contact__image {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #f4f7fb;
+    align-items: center;
+    padding-bottom:2em;
+    line-height: 1.5em;
+    gap: 1em;
+  }
+  .menu__contact__image h3{
+    font-size: 1.5rem;
+
+  }
+  .menu__contact__image div:first-child {
+    width: 100px;
+    height: 100px;
+    background-color: #f4f7fb;
+    margin-top: -3em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

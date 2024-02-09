@@ -5,35 +5,39 @@
 .nav__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;X
+  justify-content: space-between;
 }
 
 .nav__menu ul {
   display: flex;
+  gap: 1em;
   
-}
-.nav__menu ul a {
-  text-decoration: none;
-  color:black
 }
 
 .nav__menu li {
   list-style-type: none;
-  font-size: 2rem;
-  
+  font-size: 1rem;
+  padding: 1em;
 }
+.nav__menu ul li a{
+  text-decoration: none;
+  color: black;
+}
+
 .nav__icons {
   display: flex;
   gap: 2em;
 }
-.nav__menu li {
-  padding: 1em 1em;
-}
+
 .nav__menu li:hover {
   background: #eea539;
-  color: #F4F7FB;
-  cursor:pointer;
+  color: #fff;
+  
 }
+.nav__menu li:hover a{
+  color: #fff;
+}
+
 .humberger {
   display: none;
 }

@@ -1,49 +1,68 @@
 .footer{
     background-color: black;
-    margin:0 auto;
-    width:99%;
-    margin-top:150px; 
-    flex: 1;
+    margin-top: 8em;
+    padding: 3em 0;
+    color: #fff;
 }
 .footer__container{
   display: flex;
-    justify-content: space-around;
-    width:90%;
+    justify-content: space-between;
 }
-.footer__menu ul li{
-padding: 10px;
-  font-size: 1.2rem;
+.footer__left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
-.footer__menu ul li:hover {
-    cursor:pointer;
+.footer__images{
+  display: flex;
+  gap: 1em;
+}
+.footer__menu{
+  flex: 1;
+}
+.footer__menu ul li {
+  list-style-type: none;
+  padding-top: 1.5em;
+}
+.footer__menu ul li a{
+color:white ;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.footer__menu ul li:hover a {
     color:#eea539;  
   }
-  .footer__menu li {
-    color:#fff;
-    list-style-type: none;
-  }
-  .footer h4{
-    justify-content: space-between;
-    line-height:2em;
-  }
-  .footer__logo __left{
-    padding-right:8rem;
-  }
-  
-  .footer__logo{
-    padding-top: 30px;
+ 
+ 
+
+  .footer__right{
+    flex: 1;
+    
   }
 .footer__right__form{
      display: flex;
-    border: 3px solid black;
+     margin-top: 3em;
+     width: 100%;
+    
+
     }
-  .footer input{
-    padding: 2rem 10rem;
-      border-radius: 7px 0 0 7px;
+.footer__right__form input{
+      width: 75%;
+      padding:2em;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+      border-radius:7px 0 0 7px;
    }
-  .footer button{
-    padding:2em 4em;
+  .footer__right__form button{
+    width: 25%;
+    /*  */
     background-color: #eea539;
     border-radius: 0 7px 7px 0;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+
   }
   

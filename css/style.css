@@ -2,7 +2,8 @@
 @import url("sections/header/hero.css");
 @import url("sections/menu.css");
 @import url("sections/footer.css");
-@import url("sections/shop.css");
+@import url("sections/why-us.css");
+@import url("sections/help.css");
 
 /* :root{
 
@@ -30,14 +31,16 @@ h2{
   font-size: 3rem;
   font-weight: bold;
 }
+h4{
+  font-size: 1.3rem;
+}
 h5{
   font-size:2em;
-  color: white;
   
 
 } 
 .light__text{
-  color:lightgray;
+  color:gray;
   font-size: 20px;
 }
 .black{
