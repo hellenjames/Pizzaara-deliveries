@@ -28,8 +28,9 @@
   justify-content: space-evenly;
   width: 80%;
   margin-bottom: 6em;
-  font-weight: bolder;
+  font-weight: bold;
   margin: 0 auto;
+  font-size: 2em;
 }
 
 .menu__li ul li {
@@ -57,6 +58,10 @@
   margin-top: 3em;
   text-align: center;
 }
+.menu__amount__container p{
+  font-weight: bold;
+  font-size: 2em;
+}
 .button__viewMore {
   text-align: center;
 }
@@ -79,6 +84,9 @@
 .why__menu__left {
   flex: 1;
   background: url("../../images/why-us.png") no-repeat top left/contain;
+}
+.why__menu__right h2{
+margin:2px ;
 }
 .menu__images {
   display: flex;
@@ -114,6 +122,9 @@
   padding: 1em 1em;
   align-items: center;
 }
+.menu__help{
+  text-align: center;
+}
 .menu__contact {
   display: flex;
   justify-content: space-around;
@@ -132,5 +143,22 @@
   text-align: center;
   padding:0 10em ;
   line-height: 1.5em;
+  
+}
+
+.menu__contact__image div:first-child{
+  width: 100px;
+  height: 100px;
+  background-color:#f4f7fb;
+  margin-top: -20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 890px){
   
 }

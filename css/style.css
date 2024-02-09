@@ -2,6 +2,7 @@
 @import url("sections/header/hero.css");
 @import url("sections/menu.css");
 @import url("sections/footer.css");
+@import url("sections/shop.css");
 
 /* :root{
 
@@ -29,7 +30,7 @@ h2{
   font-size: 3rem;
   font-weight: bold;
 }
-h4{
+h5{
   font-size:2em;
   color: white;
   

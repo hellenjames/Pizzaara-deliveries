@@ -1,0 +1,10 @@
+.section__image {
+    background-color: #F4F7FB;
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  text-align: center;
+
+}

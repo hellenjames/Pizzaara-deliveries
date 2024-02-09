@@ -1,6 +1,5 @@
-
-.hero{
-  margin:4em 0 12em 0;
+.hero {
+  margin: 4em 0 12em 0;
 }
 .hero__container {
   display: flex;
@@ -16,7 +15,7 @@
 .hero__content__left h1 {
   font-size: 5rem;
 }
-.hero__content__left__container h1 + p{
+.hero__content__left__container h1 + p {
   font-size: 1.3rem;
 }
 
@@ -50,7 +49,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 0 7px 7px 0;
-  
 }
 .hero__search__button button {
   background-color: black;
@@ -62,13 +60,16 @@
 .hero__cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
   margin-top: 4em;
 }
 .hero__cards__container {
   background-color: #f4f7fb;
-  width: 30%;
+  flex: 1;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   padding: 2em 0;
   border-radius: 7px;
@@ -94,26 +95,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:2em;
+  gap: 2em;
 }
-.content__right__img{
+.content__right__img {
   display: flex;
-  gap:1em;
+  gap: 1em;
 }
 
-@media screen and (max-width: 415px) {
-
-  .hero__content__right{
+@media screen and (max-width: 890px) {
+  .hero__content__right {
     display: none;
   }
-  .hero__content__left{
+  .hero__content__left {
     width: 100%;
   }
   .hero__content__left__container {
     width: 100%;
   }
   .hero__content__left h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-  
+}
+@media screen and (max-width: 500px) {
+  .hero h4 {
+    font-size: 1em;
+  }
+
+  .hero__cards{
+    flex-direction: column;
+  }
 }
