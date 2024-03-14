@@ -32,8 +32,8 @@
 }
 
 .menu__li ul li:hover {
-  border-bottom: 3px solid #eea539;
-  color: #eea539;
+  /* border-bottom: 3px solid #eea539; */
+  /* color: #eea539; */
   cursor: pointer;
   padding-bottom: 1.87em;
 }
@@ -89,6 +89,12 @@
   border-radius: 7px;
   border: none;
 }
+
+.active{
+  border-bottom: 3px solid #eea539;
+  color: #eea539;
+}
+
 
 
 

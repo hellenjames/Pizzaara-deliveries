@@ -46,6 +46,23 @@ h5{
 .black{
   color:black
 }
+.active{
+  border-bottom: 3px solid #eea539;
+  color: #eea539;
+}
+.first__section{
+  position: relative;
+}
+  .cart__section{
+    background-color: #eea539;
+    min-height: 10vh;
+    /* width:20%; */
+  position:absolute;
+right:0;
+top:7%;
+  }
 
-
+  .show__cart{
+    width:20%;
+}
 

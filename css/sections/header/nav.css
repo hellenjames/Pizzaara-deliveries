@@ -28,6 +28,18 @@
   display: flex;
   gap: 2em;
 }
+.cartcounter{
+  position: relative;
+}
+.counter{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: #eea539;
+  position: absolute;
+  top:-10px;
+  left: 6px;;
+}
 
 .nav__menu li:hover {
   background: #eea539;
@@ -40,6 +52,12 @@
 
 .humberger {
   display: none;
+}
+.cart-products{
+  display:flex;
+}
+.subtotals-container{
+  display: flex;
 }
 @media screen and (max-width: 890px) {
   .nav{

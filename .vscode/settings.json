@@ -1,3 +1,4 @@
 {
-  "explorer.autoReveal": true
+  "explorer.autoReveal": true,
+  "liveServer.settings.port": 5501
 }

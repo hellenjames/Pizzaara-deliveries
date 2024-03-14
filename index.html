@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- header-part -->
-    <header>
+    <header class="first__section">
       <nav class="nav">
         <div class="container">
           <div class="nav__container">
@@ -40,7 +40,15 @@
             </div>
 
             <div class="nav__icons">
-              <img src="images/shopping-cart.png" width="25" />
+              <div class="cartcounter">
+                <div id="counts">
+                  <img src="images/shopping-cart.png" width="25" />
+
+                  <div class="counter">
+                    <span id="counter">0</span>
+                  </div>
+                </div>
+              </div>
               <img src="images/avatar.png" width="25" />
               <div class="humberger">
                 <i class="fa-solid fa-bars"></i>
@@ -49,6 +57,7 @@
           </div>
         </div>
       </nav>
+      <div class="cart__section"></div>
       <section class="hero">
         <div class="container">
           <div class="hero__container">
@@ -82,41 +91,41 @@
                     <div class="hero__cards__image" width="35">
                       <img src="images/cutlery.png" width="35" />
                     </div>
+                  </div>
+                  <p>500+</p>
+                  <p>Restaurants</p>
+                </div>
+                <div class="hero__cards__container">
+                  <div class="hero__cards__image">
+                    <img src="images/varieties.png" width="35" />
+                  </div>
 
-                    <p>500+</p>
-                    <p>Restaurants</p>
+                  <p>200+</p>
+                  <p>Pizza Varieties</p>
+                </div>
+                <div class="hero__cards__container">
+                  <div class="hero__cards__image">
+                    <img src="images/star.png" width="35" />
                   </div>
-                  <div class="hero__cards__container">
-                    <div class="hero__cards__image">
-                      <img src="images/varieties.png" width="35" />
-                    </div>
-
-                    <p>200+</p>
-                    <p>Pizza Varieties</p>
-                  </div>
-                  <div class="hero__cards__container">
-                    <div class="hero__cards__image">
-                      <img src="images/star.png" width="35" />
-                    </div>
-                    <p>(7.8)</p>
-                    <p>10K Reviews</p>
-                  </div>
+                  <p>(7.8)</p>
+                  <p>10K Reviews</p>
                 </div>
               </div>
             </div>
-            <div class="hero__content__right">
-              <div>
-                <img src="images/hero-pizza.png" width="500" />
-              </div>
-              <div class="content__right__img">
-                <img src="images/pizza-1.png" width="180" />
-                <img src="images/pizza-2.png" width="130" />
-                <img src="images/pizza-3.png" width="130" />
-                <img src="images/pizza-4.png" width="130" />
-              </div>
+          </div>
+          <div class="hero__content__right">
+            <div>
+              <img src="images/hero-pizza.png" width="500" />
+            </div>
+            <div class="content__right__img">
+              <img src="images/pizza-1.png" width="180" />
+              <img src="images/pizza-2.png" width="130" />
+              <img src="images/pizza-3.png" width="130" />
+              <img src="images/pizza-4.png" width="130" />
             </div>
           </div>
         </div>
+        <!-- </div> -->
       </section>
     </header>
     <!-- main-part -->
@@ -134,14 +143,14 @@
           <div>
             <div class="menu__li">
               <ul>
-                <li>Chicken Pizza</li>
-                <li>Pepperoni</li>
-                <li>Margherita</li>
-                <li>Hawaiian</li>
-                <li>Meat Lover’s Pizza</li>
+                <li class="select">Chicken Pizza</li>
+                <li class="select">Pepperoni</li>
+                <li class="select">Margherita</li>
+                <li class="select">Hawaiian</li>
+                <li class="select">Meat Lover’s Pizza</li>
               </ul>
             </div>
-            <div class="menu__items">
+            <div class="menu__items chicken">
               <div class="menu__item">
                 <div class="menu__item__image">
                   <img src="images/barbecue-chicken-pizza.png" width="300" />
@@ -150,9 +159,10 @@
                   <p>BBQ Chicken Pizza</p>
                   <p class="light__text">(Cheese with Shrimp)</p>
                   <p>Ksh. 1500</p>
+                  <button></button>
                 </div>
                 <div class="menu__item__button">
-                  <button>Add to Cart</button>
+                  <button class="button">Add to Cart</button>
                 </div>
               </div>
               <div class="menu__item">
@@ -165,7 +175,7 @@
                   <p>Ksh. 1500</p>
                 </div>
                 <div class="menu__item__button">
-                  <button>Add to Cart</button>
+                  <button class="button">Add to Cart</button>
                 </div>
               </div>
               <div class="menu__item">
@@ -179,7 +189,175 @@
                   <p>Ksh. 1500</p>
                 </div>
                 <div class="menu__item__button">
-                  <button>Add to Cart</button>
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="menu__items pepperoni">
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>BBQ pepperoni</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/tandoori-chicken.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>Tandooripepperoni</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>pepperoni</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="menu__items margherita">
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>BBQ margherita</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/tandoori-chicken.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>Tandoori margherita</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>Chicken margherita</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="menu__items hawaiian">
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>BBQ hawaiian</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/tandoori-chicken.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>Tandoori hawaiian</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>hawaiian</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="menu__items meat">
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>BBQ meat</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/tandoori-chicken.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>Tandoori meat</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="menu__item__image">
+                  <img src="images/barbecue-chicken-pizza.png" width="300" />
+                </div>
+                <div class="menu__item__content">
+                  <p>Chicken meat</p>
+                  <p class="light__text">(Cheese with Shrimp)</p>
+
+                  <p>Ksh. 1500</p>
+                </div>
+                <div class="menu__item__button">
+                  <button class="button">Add to Cart</button>
                 </div>
               </div>
             </div>
@@ -292,12 +470,11 @@
     <!-- footer-part -->
     <footer class="footer">
       <div class="container">
-      
         <div class="footer__container">
           <div class="footer__left">
             <div>
-            <img src="images/logo_light.svg" width="250" />
-          </div>
+              <img src="images/logo_light.svg" width="250" />
+            </div>
 
             <h5>Stay Connected</h5>
             <div class="footer__images">
@@ -311,19 +488,16 @@
           <div class="footer__menu">
             <h5>Quick Links</h5>
             <ul class="white">
-              <ul>
-                <li><a href="index.html"> Home </a></li>
-                <li><a href="./pages/about.html">About Us</a></li>
-                <li><a href="./pages/shop.html"> Shop </a></li>
-                <li><a href="./pages/contact.html">Contact Us</a></li>
-              </ul>
+              <!-- <ul> -->
+              <li><a href="index.html"> Home </a></li>
+              <li><a href="./pages/about.html">About Us</a></li>
+              <li><a href="./pages/shop.html"> Shop </a></li>
+              <li><a href="./pages/contact.html">Contact Us</a></li>
+            </ul>
           </div>
 
           <div class="footer__right">
-            <h5>
-              Subscribe To Our Newsletter to
-              stay updated.
-            </h5>
+            <h5>Subscribe To Our Newsletter to stay updated.</h5>
 
             <div class="footer__right__form">
               <input type="text" placeholder="Email Address" />
@@ -331,8 +505,9 @@
             </div>
           </div>
         </div>
-      
-    </div>
+      </div>
     </footer>
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
   </body>
 </html>
